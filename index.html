@@ -2,20 +2,198 @@
 <html lang="en">
 
 <head>
+  <script src="https://kit.fontawesome.com/60da2c8ee3.js" crossorigin="anonymous"></script>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/styles.css">
 
   <title>Hello, world!</title>
 </head>
 
 <body>
-  <h1>Hello, world!!</h1>
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid px-5 ">
+      <a class="navbar-brand fw-bold fs-3" href="#">Moqups</a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active fw-bold fs-3 text-reset" aria-current="page" href="#">Speakers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold fs-3 text-reset " href="#">Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold fs-3 text-reset" href="#">Venue</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Top Jumbotron -->
+
+  <div class="container-fluid d-flex justify-content-center align-items-center"
+    style="background-image: url('./img/pexels-luis-quintero-2833037.jpg'); height: 1000px; background-repeat: no-repeat; background-size: cover;">
+    <div class="row px-0">
+      <div class="mx-auto text-center p-5 text-white">
+        <p class="display-4 fw-bold">Clear Statement about <br> Your Event</p>
+        <p class="fs-3 opacity-75 p-4">Secondary header providing additional information</p>
+        <button class="btn btn-lg btn-dark fs-6 fw-bold px-5 py-3" type="button">GET THE TICKET</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- speakers section -->
+
+  <div class="container-fluid p-0">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="text-center p-5 text-dark">
+          <p class="display-5 fw-bold py-3">The Speakers</p>
+          <p class="fs-5 fw-bold">Write a few lines about the event speakers to <br> highlight their expertise in the
+            field.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- card section -->
+
+    <div class="row row-cols-1 row-cols-lg-4 g-4 w-75 mx-auto pb-5">
+      <div class="col">
+        <div class="card h-100 border-0">
+          <img
+            src="https://images.pexels.com/photos/7717254/pexels-photo-7717254.jpeg?cs=srgb&dl=pexels-oluwatoki-sayf-fattah-7717254.jpg&fm=jpg"
+            class="card-img-top rounded-2" alt="...">
+          <div class="card-body px-0">
+            <h5 class="card-title">Ruby Jennings</h5>
+            <p class="card-text">Product Manager at Moqups. Runner, parent and coffee lover.</p>
+            <p class="mb-0"><a href="#" class="text-decoration-none text-reset">@RubyJennings</a></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0">
+          <img
+            src="https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?cs=srgb&dl=pexels-spencer-selover-428328.jpg&fm=jpg"
+            class="card-img-top rounded-3" alt="...">
+          <div class="card-body px-0">
+            <h5 class="card-title">Leon Hanson</h5>
+            <p class="card-text">Sales Manager at Moqups. Runner, parent and coffee lover.</p>
+            <p class="mb-0"><a href="#" class="text-decoration-none text-reset">@LeonHanson</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0">
+          <img
+            src="https://images.pexels.com/photos/3156217/pexels-photo-3156217.jpeg?cs=srgb&dl=pexels-jeff-denlea-3156217.jpg&fm=jpg"
+            class="card-img-top rounded-3" alt="...">
+          <div class="card-body px-0">
+            <h5 class="card-title">Meghan Stone</h5>
+            <p class="card-text">Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
+            <p class="mb-0"><a href="#" class="text-decoration-none text-reset">@MeghanStone</a></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-0">
+          <img
+            src="https://images.pexels.com/photos/1546912/pexels-photo-1546912.jpeg?cs=srgb&dl=pexels-craig-adderley-1546912.jpg&fm=jpg"
+            class="card-img-top rounded-3" alt="...">
+          <div class="card-body px-0">
+            <h5 class="card-title">Willie Perkins</h5>
+            <p class="card-text">UX Engineer at Moqups. Runner, parent and coffee lover.</p>
+            <p class="mb-0"><a href="#" class="text-decoration-none text-reset">@WilliePerkins</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bottom Jumbotron Get Your Ticket Today -->
+
+  <div class="container-fluid border-top border-2 py-4 ">
+    <div class="mx-auto text-center p-5 text-dark">
+      <p class="display-4 fw-bold pb-3">Get Your Ticket Today!</p>
+      <p class="fs-5 opacity-75 pb-3">Each Ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b>
+        sessions,
+        <b>5</b> keytones.</p>
+      <div class="button">
+        <button class="btn btn-lg btn-dark fs-6 fw-bold px-5 py-3" type="button">BUY TICKET $149</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Jumbotron -->
+
+  <div class="container-fluid border-top border-2 p-5">
+    <div class="row row-cols-1 row-cols-lg-2 g-4">
+      <div class="d-flex flex-column align align-items-center">
+        <div class="container-fluid">
+          <p class="display-4 fw-bold pb-5">The Venue</p>
+          <p class="fs-5 pb-5 w-50">Our event will be held at the <b class="fw-bold">Main Office headquarters at Provost
+              & East Building 145 City Road, London.</b></p>
+        </div>
+        <div class="container-fluid">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9928.903026271528!2d-0.08832500000000001!3d51.527419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca677677bd1%3A0xfe6025085816a202!2s145%20City%20Rd%2C%20London%20EC1V%201AW%2C%20UK!5e0!3m2!1sen!2sus!4v1647318375451!5m2!1sen!2sus"
+            class="w-100" height="335" style="border:0;" allowfullscreen="" loading="lazy" class="img-fluid"></iframe>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container-fluid">
+          <img
+            src="https://images.pexels.com/photos/259239/pexels-photo-259239.jpeg?cs=srgb&dl=pexels-pixabay-259239.jpg&fm=jpg"
+            class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+
+  <div class="container-fluid px-5 py-4 border-top border-2">
+    <div class="d-flex align-items-center">
+      <div class="ps-4 twitter">
+        <a href="#" class="text-reset"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+      </div>
+      <div class="ps-4 instagram">
+        <a href="#" class="text-reset"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+      </div>
+      <div class="ps-4 facebook">
+        <a href="#" class="text-reset"><i class="fa-brands fa-facebook-square fa-2xl"></i></a>
+      </div>
+      <div class="ms-auto pe-4 copyright fs-4 opacity-75">
+        &copy2019 Moqups
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 
