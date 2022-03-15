@@ -2,7 +2,7 @@
 This is a practice file :sweat_smile:
   
 ## Mobile Friendly Website Practice
-Showcase new skills to create a responsive mobile friendly website :thumbsup:
+This template is used to start new projects using Bootstrap 5 :thumbsup:
   
 ## Contact
 #### Email:
